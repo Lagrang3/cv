@@ -1,0 +1,121 @@
+\documentclass[12pt]{article}
+\usepackage{listings}
+\usepackage{fixltx2e}
+\MakeRobust{\overrightarrow}
+\usepackage{multicol}
+\usepackage[T1]{fontenc} 
+\usepackage[letterpaper, total={7in, 8.5in}]{geometry}
+\usepackage{fancyhdr}
+\usepackage{url}
+\pagestyle{fancy}
+
+\newcommand\name{Eduardo Quintana Miranda}
+\rhead{\name}
+
+\begin{document}
+    \thispagestyle{empty}
+    \begin{center}
+        \textsc{\textbf{\large{\name}}}
+    \end{center}
+    \rule{\textwidth}{1pt}
+    \begin{multicols}{2}
+        \flushleft{%
+            Astronomical Observatory of Trieste\\
+            Via G.B. Tiepolo 11, I-34143, Italy
+        }
+        \columnbreak
+        \flushright{%
+            \url{eduardo.quintanamiranda@phd.units.it}\\
+            \url{https://github.com/Lagrang3}
+        }
+    \end{multicols}
+    
+    %Education..............................................................
+    \section*{Education}
+    \begin{itemize}
+        \item University of Trieste and The Astronomical Observatory of Trieste,
+        Ph.D. Physics. September 2019--Present.
+        \item \textit{Scuola Internazionale Superiore di Studi Avanzati}
+        (SISSA), Master in High Performance Computing. Decembre 2019.
+        \item University of Trieste, M.Sc in Theoretical Physics. March 2018
+        \textit{summa cum laude}.
+        \item \textit{Instituto Superior de Tecnolog\'\i as y Ciencias
+        Aplicadas} and University of Havana, B.Sc in Nuclear Physics. July 2013,
+        \textit{summa cum laude}.
+    \end{itemize}
+    
+    %Publications................................................................
+    \section*{Publications}
+    \begin{itemize}
+        \item D.A. Fagundes, L. Jenkovszky, E.Q. Miranda, 
+        G. Pancheri, P.V.R.G. Silva.
+        \textit{Fine structure of the diffraction cone: From the ISR to the LHC.}
+        Int. J. Mod. Phys. A 31, 1645022 (2016).
+        \item O. D\'\i az Rizo, E. Quintana Miranda, C.M. Alonso Hern\'andez,
+        H. Cartas \'Aguila, K. D'Alessandro Rodr\'\i guez, N. L\'opez Pino, 
+        J.O. Arado L\'opez.
+        \textit{Heavy metal and natural radionuclide levels in urban 
+        soils from Cienfuegos city, Cuba.} 
+        Nucleus N.54, 2013.
+    \end{itemize}
+    
+    %Publications................................................................
+    \section*{Contributions to open source}
+    \begin{itemize}
+        \item Participated successfully in Google Summer of Code 2021, for the
+        development of FFT Utilities within Boost.Math C++ Library.
+        My mentors where Janek Kozicki and Christopher Kormanyos.
+        To see the report about this work follow the link
+        \url{https://github.com/BoostGSoC21/math-fft-report/releases/download/v1.1/gsoc-report.pdf}
+    \end{itemize}
+
+   % \section*{Skills}
+   % \noindent Lingue: Spagnolo (lingua madre), Inglese (certificato IELTS 7.5) e
+   % Italiano (certificato CPIA B2).
+   % \noindent Programmazione: {\tt C/C++}, \TeX, Python, FORTRAN, librerie per la programmazione 
+   % in parallelo OpenMP, MPI e CUDA.
+    
+% \beginsection{Esperienza di Lavoro}
+%     \itemtab=2cm
+%     \editem{2018.}  Assistente bibliotecario presso ``Abdus Salam'' 
+%     International Center for Theoretical 
+%     Physics (ICTP), Triste.\par\smallskip 
+%     \editem{2013--2015.} Assistente professore presso il dipartimento di Fisica
+%     dell'Universit\`a di Cienfuegos (UCf).
+%     Carretera a Rodas km 4. Cienfuegos, Cuba.\par
+% 
+% \endsection
+
+% \beginsection{Concorsi}
+%     \itemtab=1cm
+%     
+%     
+%     % 2010 & $1\sup{st}$ place (as member of the team: \textit{FKT+}), 
+%     %ACM-ICPC (Association for Computing Machinery - International Collegiate Programming Contest), InSTEC Finals.\\ \\
+%     % 2011 & $1\sup{st}$ place (as member of the team: \textit{Instec-03}), ACM-ICPC, InSTEC Finals.\\ 
+%     % & Ranked $22\sup{nd}$ at the Caribbean Finals of 2011.\\ \\
+%     
+%     \editem{2018.} Borsa di ricerca della SISSA per
+%     {\it Re-engineering of a cosmological code in a exa-scale perspective};
+%     i cui risultati sono stati presentati come tesi di MHPC.\par\smallskip
+%     
+%     \editem{2015.} Borsa di studio ICTP per la Laurea Magistrale in Fisica Teorica
+%     presso Units.\par\smallskip
+%     
+%     \editem{2013.} Medaglia d'Oro nella prima edizione della
+%     Olimpiade Nazionale Cubana di Fisica per studenti Universitari (Onuf),
+%     sponsorizzata dalla Facolt\`a di Fisica dell'Universit\`a dell'Avana e 
+%     la Societ\`a Cubana di Fisica.\par\smallskip
+%     
+%     
+%     \editem{2012.} Vincitore del I posto nella gara di programmazione ACM-ICPC
+%     di livello istituzionale (InSTEC) e poi partecipante nella finale caraibica
+%     (Caribbean Finals ACM-ICPC).\par\smallskip
+%     
+%     \editem{2007.} Medaglia di Bronzo, Gara Nazionale Cubana di Matematica
+%     per le scuole superiori.
+%     
+% \endsection
+
+    
+\end{document}
